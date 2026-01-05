@@ -3,15 +3,6 @@
 #include "CoreMinimal.h"
 #include "SceneViewExtension.h"
 
-FVector3f sRGBToLinearRGB(const FVector3f& Colour);
-
-FVector3f RGBToXYZ(const FVector3f& Colour);
-
-FVector3f XYZToLab(const FVector3f& Colour);
-
-FVector3f RGBToLab(const FVector3f& Colour);
-
-
 class FCustomSceneViewExtension : public FSceneViewExtensionBase
 {
 public:
